@@ -1,0 +1,986 @@
+---
+MainSourceFile:  '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+Replacements:    
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          324
+    Length:          0
+    ReplacementText: '#include <CL/sycl.hpp>
+#include <syclct/syclct.hpp>
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          406
+    Length:          10
+    ReplacementText: CL_SYCL_LANGUAGE_VERSION
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          438
+    Length:          8
+    ReplacementText: ''
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          447
+    Length:          10
+    ReplacementText: ''
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          686
+    Length:          10
+    ReplacementText: CL_SYCL_LANGUAGE_VERSION
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          1791
+    Length:          0
+    ReplacementText: '/*
+SYCLCT1011:0: The tool detected overloaded operators for built-in vector types, which may conflict with SYCL 1.2.1 standard operators (see 4.10.2.1 Vec interface). The tool inserted namespace to avoid the conflict. Consider using SYCL 1.2.1 standard operators instead.
+*/
+namespace syclct_operator_overloading {
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          1811
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          1831
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          1849
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          1870
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          1875
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          1878
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          1879
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          1887
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          1892
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          1895
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          1896
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          1915
+    Length:          0
+    ReplacementText: '
+}  // namespace syclct_operator_overloading
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          1916
+    Length:          0
+    ReplacementText: '/*
+SYCLCT1011:1: The tool detected overloaded operators for built-in vector types, which may conflict with SYCL 1.2.1 standard operators (see 4.10.2.1 Vec interface). The tool inserted namespace to avoid the conflict. Consider using SYCL 1.2.1 standard operators instead.
+*/
+namespace syclct_operator_overloading {
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          1936
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          1956
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          1974
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          1995
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2000
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2003
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2004
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2012
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2017
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2020
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2021
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2040
+    Length:          0
+    ReplacementText: '
+}  // namespace syclct_operator_overloading
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2041
+    Length:          0
+    ReplacementText: '/*
+SYCLCT1011:2: The tool detected overloaded operators for built-in vector types, which may conflict with SYCL 1.2.1 standard operators (see 4.10.2.1 Vec interface). The tool inserted namespace to avoid the conflict. Consider using SYCL 1.2.1 standard operators instead.
+*/
+namespace syclct_operator_overloading {
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2061
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2081
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2118
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2132
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2157
+    Length:          0
+    ReplacementText: '
+}  // namespace syclct_operator_overloading
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2158
+    Length:          0
+    ReplacementText: '/*
+SYCLCT1011:3: The tool detected overloaded operators for built-in vector types, which may conflict with SYCL 1.2.1 standard operators (see 4.10.2.1 Vec interface). The tool inserted namespace to avoid the conflict. Consider using SYCL 1.2.1 standard operators instead.
+*/
+namespace syclct_operator_overloading {
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2178
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2198
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2235
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2249
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2274
+    Length:          0
+    ReplacementText: '
+}  // namespace syclct_operator_overloading
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2320
+    Length:          0
+    ReplacementText: '/*
+SYCLCT1011:4: The tool detected overloaded operators for built-in vector types, which may conflict with SYCL 1.2.1 standard operators (see 4.10.2.1 Vec interface). The tool inserted namespace to avoid the conflict. Consider using SYCL 1.2.1 standard operators instead.
+*/
+namespace syclct_operator_overloading {
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2362
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2381
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2408
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2411
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2412
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2416
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2419
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2420
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2426
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2429
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2430
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2434
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2437
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2438
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2444
+    Length:          0
+    ReplacementText: '
+}  // namespace syclct_operator_overloading
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2459
+    Length:          0
+    ReplacementText: '/*
+SYCLCT1011:5: The tool detected overloaded operators for built-in vector types, which may conflict with SYCL 1.2.1 standard operators (see 4.10.2.1 Vec interface). The tool inserted namespace to avoid the conflict. Consider using SYCL 1.2.1 standard operators instead.
+*/
+namespace syclct_operator_overloading {
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2501
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2520
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2548
+    Length:          0
+    ReplacementText: 'syclct_operator_overloading::operator==('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2551
+    Length:          2
+    ReplacementText: ','
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2556
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2562
+    Length:          0
+    ReplacementText: '
+}  // namespace syclct_operator_overloading
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2599
+    Length:          0
+    ReplacementText: '/*
+SYCLCT1011:6: The tool detected overloaded operators for built-in vector types, which may conflict with SYCL 1.2.1 standard operators (see 4.10.2.1 Vec interface). The tool inserted namespace to avoid the conflict. Consider using SYCL 1.2.1 standard operators instead.
+*/
+namespace syclct_operator_overloading {
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2619
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2643
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2674
+    Length:          0
+    ReplacementText: '
+}  // namespace syclct_operator_overloading
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2690
+    Length:          0
+    ReplacementText: '/*
+SYCLCT1011:7: The tool detected overloaded operators for built-in vector types, which may conflict with SYCL 1.2.1 standard operators (see 4.10.2.1 Vec interface). The tool inserted namespace to avoid the conflict. Consider using SYCL 1.2.1 standard operators instead.
+*/
+namespace syclct_operator_overloading {
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2710
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2734
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2759
+    Length:          12
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2773
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2775
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2776
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2779
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2781
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2782
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2788
+    Length:          0
+    ReplacementText: '
+}  // namespace syclct_operator_overloading
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2819
+    Length:          0
+    ReplacementText: '/*
+SYCLCT1011:8: The tool detected overloaded operators for built-in vector types, which may conflict with SYCL 1.2.1 standard operators (see 4.10.2.1 Vec interface). The tool inserted namespace to avoid the conflict. Consider using SYCL 1.2.1 standard operators instead.
+*/
+namespace syclct_operator_overloading {
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2839
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2863
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2882
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2908
+    Length:          12
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2921
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2924
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2925
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2928
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2931
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2932
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2934
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2937
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2938
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2941
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2944
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2945
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2951
+    Length:          0
+    ReplacementText: '
+}  // namespace syclct_operator_overloading
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2964
+    Length:          0
+    ReplacementText: '/*
+SYCLCT1011:9: The tool detected overloaded operators for built-in vector types, which may conflict with SYCL 1.2.1 standard operators (see 4.10.2.1 Vec interface). The tool inserted namespace to avoid the conflict. Consider using SYCL 1.2.1 standard operators instead.
+*/
+namespace syclct_operator_overloading {
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          2984
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3008
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3027
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3053
+    Length:          12
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3066
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3069
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3070
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3073
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3076
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3077
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3079
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3082
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3083
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3086
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3089
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3090
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3096
+    Length:          0
+    ReplacementText: '
+}  // namespace syclct_operator_overloading
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3126
+    Length:          0
+    ReplacementText: '/*
+SYCLCT1011:10: The tool detected overloaded operators for built-in vector types, which may conflict with SYCL 1.2.1 standard operators (see 4.10.2.1 Vec interface). The tool inserted namespace to avoid the conflict. Consider using SYCL 1.2.1 standard operators instead.
+*/
+namespace syclct_operator_overloading {
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3146
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3170
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3212
+    Length:          12
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3225
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3227
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3228
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3234
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3236
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3237
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3247
+    Length:          0
+    ReplacementText: '
+}  // namespace syclct_operator_overloading
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3277
+    Length:          0
+    ReplacementText: '/*
+SYCLCT1011:11: The tool detected overloaded operators for built-in vector types, which may conflict with SYCL 1.2.1 standard operators (see 4.10.2.1 Vec interface). The tool inserted namespace to avoid the conflict. Consider using SYCL 1.2.1 standard operators instead.
+*/
+namespace syclct_operator_overloading {
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3297
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3338
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3363
+    Length:          12
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3376
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3378
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3379
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3385
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3387
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3388
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3398
+    Length:          0
+    ReplacementText: '
+}  // namespace syclct_operator_overloading
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3426
+    Length:          0
+    ReplacementText: '/*
+SYCLCT1011:12: The tool detected overloaded operators for built-in vector types, which may conflict with SYCL 1.2.1 standard operators (see 4.10.2.1 Vec interface). The tool inserted namespace to avoid the conflict. Consider using SYCL 1.2.1 standard operators instead.
+*/
+namespace syclct_operator_overloading {
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3446
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3470
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3547
+    Length:          12
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3560
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3562
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3563
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3572
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3574
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3575
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3588
+    Length:          0
+    ReplacementText: '
+}  // namespace syclct_operator_overloading
+
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3671
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3690
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3716
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3719
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3720
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3723
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3726
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3727
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3730
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3733
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3734
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3737
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3740
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3741
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3808
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3827
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3853
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3856
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3857
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3860
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3863
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3864
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3867
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3870
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3871
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3874
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3877
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3878
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3934
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          3959
+    Length:          32
+    ReplacementText: 'std::sqrt(static_cast<const double>(v.x()) * static_cast<const double>(v.x()) + static_cast<const double>(v.y()) * static_cast<const double>(v.y()))'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4056
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4081
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4083
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4084
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4087
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4089
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4090
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4093
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4095
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4096
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4099
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4101
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4102
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4166
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4190
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4215
+    Length:          12
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4229
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4231
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4232
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4234
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4236
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4237
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4295
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4318
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4343
+    Length:          12
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4356
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4358
+    Length:          1
+    ReplacementText: 'y()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4359
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4362
+    Length:          0
+    ReplacementText: 'static_cast<const double>('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4364
+    Length:          1
+    ReplacementText: 'x()'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4365
+    Length:          0
+    ReplacementText: ')'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4465
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4481
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4499
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4557
+    Length:          0
+    ReplacementText: 'syclct_operator_overloading::operator-('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4559
+    Length:          1
+    ReplacementText: ','
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4561
+    Length:          0
+    ReplacementText: 'syclct_operator_overloading::operator*('
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4571
+    Length:          1
+    ReplacementText: ','
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Vec2.hh'
+    Offset:          4574
+    Length:          0
+    ReplacementText: '))'
+...

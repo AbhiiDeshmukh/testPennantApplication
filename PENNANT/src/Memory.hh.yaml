@@ -1,0 +1,10 @@
+---
+MainSourceFile:  '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Memory.hh'
+Replacements:    
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/Memory.hh'
+    Offset:          329
+    Length:          0
+    ReplacementText: '#include <CL/sycl.hpp>
+#include <syclct/syclct.hpp>
+'
+...

@@ -1,0 +1,22 @@
+---
+MainSourceFile:  '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/HydroGPU.hh'
+Replacements:    
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/HydroGPU.hh'
+    Offset:          335
+    Length:          0
+    ReplacementText: '#include <CL/sycl.hpp>
+#include <syclct/syclct.hpp>
+'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/HydroGPU.hh'
+    Offset:          879
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/HydroGPU.hh'
+    Offset:          907
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+  - FilePath:        '/home/abhishekx/abhishek/application/gpu_pennant/PENNANT/src/HydroGPU.hh'
+    Offset:          1459
+    Length:          7
+    ReplacementText: 'cl::sycl::double2'
+...
